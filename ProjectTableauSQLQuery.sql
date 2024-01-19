@@ -54,7 +54,7 @@ Group by Location, Population
 order by PercentPopulationInfected desc
 
 
--- 4.
+-- 4. Percentage Population Infected
 
 
 Select Location, Population,date, MAX(total_cases) as HighestInfectionCount,  Max((total_cases/population))*100 as PercentPopulationInfected
